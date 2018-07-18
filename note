@@ -1,0 +1,24 @@
+https://mycolor.space/gradient
+
+
+ionic cordova platform add android
+
+ionic cordova emulate android
+
+cordova platform add android@6.1.1
+cordova platform help
+cordova platform rm android
+cordova platform add android@6.2.1
+
+onic cordova run android
+ionic cordova resources
+ng build -prod --base-href \"/mysubfolder/\"
+ng build --prod --named-chunks
+ng build --target=production --environment=prod --aot --build-optimizer -sourcemaps --stats-json
+
+Change argument -Xmx20484m to 1024 at line:
+args.push(’-Dorg.gradle.jvmargs=-Xmx1024m’); in your project file platforms\android\cordova\lib\builders\GradleBuilder.js.
+It’s work for me
+
+https://analytics.google.com/analytics/web/#/
+
